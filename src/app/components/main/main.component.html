@@ -1,0 +1,12 @@
+<section>
+    <div>
+        <div *ngFor="let container of service.containers">
+            <app-banner class="container" *ngIf="container.tipo_contenedor == 1" [data]="container" />
+            <div class="carousel container">
+                <app-carousel *ngIf="container.tipo_contenedor == 5"  [data]="container" />
+            </div>
+            <app-slider  class="container" *ngIf="container.tipo_contenedor == 4" />
+            <app-services  class="container" *ngIf="container.tipo_contenedor == 2"  [data]="container" />
+        </div>
+    </div> 
+</section>

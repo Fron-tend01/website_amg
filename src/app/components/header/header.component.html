@@ -1,0 +1,27 @@
+<header class="hero">
+    <div class="hero__container">
+        <div class="hero_logo">
+            <div class="logo">
+                <img [src]="characters[0].image" alt="Logo">
+             
+            </div>
+        </div>
+        <nav class="nav__hero">
+            <ul class="nav__links" >
+                <li class="nav__item" *ngFor="let section of sections">
+                    <a class="nav__link" (click)="this.id = section.id" [innerHTML]="section.seccion"></a>
+                </li>
+                             
+            </ul>
+        </nav>
+        <div class="toggle">
+            <button class="toggle__botton" (click)="toggleMenu()">
+                <span class="l1 span"></span>
+                <span class="l2 span"></span>
+                <span class="l3 span"></span>
+            </button>
+        </div>
+
+       
+    </div>
+</header>

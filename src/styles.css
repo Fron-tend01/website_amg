@@ -1,0 +1,25 @@
+:root {
+    --color-primary: #ffffff;
+    --color-text-f-h: #000000;
+}
+
+
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+

@@ -1,0 +1,23 @@
+.banner_web {
+    height: 600px;
+    width: 100%;
+
+}
+
+
+.title__container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+   
+   
+}
+
+.title__content {
+    width: 100%;
+}
+
+
+
